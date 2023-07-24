@@ -1,0 +1,76 @@
+
+
+@font-face {
+    font-family:digital;
+    src: url(digital.ttf);
+}
+
+
+body
+{
+    font-family:digital;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#container
+{
+    color:white;
+    display:flex;
+    width:100vw;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+#wrapper span
+{
+    margin-left:3rem;
+}
+
+
+#wrapper
+{
+    border: 3mm solid white;
+    padding: 1em;
+}
+
+button
+{
+
+    
+   width: 3cm; 
+   border: 2mm solid white;
+   animation: reverse;
+   
+
+}
+
+#start
+{
+    margin-left:13cm;
+    position: relative;
+    top:-4cm;
+}
+
+#stop
+{
+    margin-left:14cm;
+    top:-4cm;
+}
+
+#pause
+{
+    margin-left:5mm;
+    position: relative;
+    top:-4cm;
+}
+
+#reset
+{
+    margin-left:5mm;
+    position: relative;
+    top:-4cm;
+}
